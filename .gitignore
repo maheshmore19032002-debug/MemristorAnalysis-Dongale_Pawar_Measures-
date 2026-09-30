@@ -1,0 +1,53 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Research datasets
+data/
+datasets/
+
+# Generated outputs
+outputs/
+reports/
+
+# Excel / CSV research files
+*.xlsx
+*.xls
+*.csv
+
+# Generated reports
+*.pdf
+
+# Build
+build/
+dist/
+*.egg-info/
