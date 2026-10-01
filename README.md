@@ -16,7 +16,7 @@ The application automatically detects Voltage–Current column pairs and perform
 
 **Memristor Analysis — Live App**
 
-https://maheshmore19032002-debug-memristoranalysis-dongal-webapp-qzkgk2.streamlit.app/
+https://memristor-analysis.streamlit.app/
 
 The web application allows users to upload their memristor dataset directly through a browser and perform the analysis without installing the desktop application.
 

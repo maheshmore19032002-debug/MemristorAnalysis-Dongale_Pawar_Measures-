@@ -265,17 +265,29 @@ with st.sidebar:
 
     st.divider()
 
-    st.markdown("### About")
+    st.sidebar.markdown("### About")
 
-    st.write(
-        "This web application uses the same analysis "
-        "service as the Memristor Analysis desktop "
-        "application."
-    )
+    st.sidebar.markdown(
+        """
+        **Memristor Analysis** is a numerical tool for studying the
+        **Voltage–Current characteristics of memristor devices**.
 
-    st.write(
-        "Voltage–Current pairs are detected automatically. "
-        "No manual X/Y variable selection is required."
+        **HOW TO USE**
+
+        1. Upload your Excel or CSV dataset.
+        2. Select an integration method.
+        3. Run the analysis.
+        4. Explore measurements, statistics, and V–I plots.
+        5. Download the Excel report.
+
+        **USE CASES**
+
+        • Memristor device characterization  
+        • V–I hysteresis loop analysis  
+        • Switching-cycle comparison  
+        • Research and experimental analysis  
+        • Quantitative performance evaluation
+        """
     )
 
 
