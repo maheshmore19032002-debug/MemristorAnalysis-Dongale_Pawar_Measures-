@@ -1,4 +1,6 @@
-pandas
 numpy
+pandas
 openpyxl
 PySide6
+streamlit
+plotly
